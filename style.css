@@ -1,0 +1,311 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.hero {
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(resources/home1.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 40px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.logo {
+    color: white;
+    font-size: 28px;
+}
+
+nav span {
+    color: #ea1538;
+}
+
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #ea1538;
+    transition: 0.3s;
+    width: 100%;
+}
+
+button {
+    border: none;
+    background: #ea1538;
+    padding: 12px 30px;
+    border-radius: 30px;
+    color: white;
+    font-weight: bold;
+}
+
+.content1 {
+    color: white;
+    margin-left: 10%;
+    margin-top: 10%;
+
+}
+
+.content1 .para1 {
+    font-size: 70px;
+    font-weight: bold;
+}
+
+.content1 .para2 {
+    font-size: 40px;
+    font-weight: bold;
+    margin: 30px 0px;
+}
+
+.buttonset1 .button1 {
+    border: 1px white solid;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.buttonset1 .button2 {
+    border: 3px #ea1538 solid;
+    background-color: white;
+    color: #ea1538;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+@keyframes slide {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(-100%);
+    }
+
+}
+
+.logos:hover .logos-slide {
+    animation-play-state: paused;
+}
+
+.logos {
+    overflow: hidden;
+    padding: 60px 0;
+    background: white;
+    white-space: nowrap;
+    margin: 30px 8% -40px 8%;
+}
+
+.logos-slide {
+    display: inline-block;
+    animation: slide 13s infinite linear;
+}
+
+.logos-slide img {
+    height: 50px;
+    margin: 0 40px;
+}
+
+/*boxes part*/
+.boxes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 600px;
+    /*background-color: rgb(210, 186, 186);*/
+    padding: 0% 100px;
+
+}
+
+.box {
+    height: 500px;
+    width: 395px;
+    background: #ea1538;
+    margin: 10px;
+    text-align: left;
+    color: azure;
+    padding: 0 37px;
+    padding-top: 330px;
+    border-radius: 10px;
+
+
+}
+
+.box span {
+    color: azure;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bolder;
+    display: block;
+}
+
+.box button {
+    margin-top: 10px;
+    background: white;
+    color: black;
+    border-radius: 10px;
+    font-weight: bolder;
+
+
+}
+
+#box1 {
+    background-image: linear-gradient(rgba(230, 228, 228, 0.4), rgba(50, 46, 46, 0.5)), url(resources/box2.jpg);
+    background-size: cover;
+}
+
+#box2 {
+    background-image: linear-gradient(rgba(230, 228, 228, 0.4), rgba(50, 46, 46, 0.5)), url(resources/box1.jpg);
+    background-size: cover;
+}
+
+#box3 {
+    background-image: linear-gradient(rgba(230, 228, 228, 0.4), rgba(50, 46, 46, 0.5)), url(resources/box3.jpg);
+    background-size: cover;
+}
+
+/*features*/
+
+.line {
+    background-color: blue;
+    width: 10%;
+    height: 2px;
+    margin-top: -30px;
+    margin-bottom: 40px;
+    margin-left: 45%;
+
+}
+
+.feature {
+    background-color: aliceblue;
+    padding-top: 40px;
+}
+
+.feature .header {
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    margin: 60px 0;
+    margin-top: 80px;
+}
+
+.col {
+    display: flex;
+    flex-direction: column;
+}
+
+.card {
+    height: 400px;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    box-shadow: 2px 2px #888888;
+    background-color: #f2eeef;
+
+}
+
+.card .image {
+
+    height: 250px;
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+
+.card .content {
+    color: black;
+    font-weight: lighter;
+    margin: 15px 0 0 10px;
+    font-family: unset;
+    line-height: 25px;
+
+}
+
+.feature .row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 10px 90px;
+}
+
+.card .content .header {
+    font-weight: bold;
+    font-size: large;
+}
+
+.card .content .gender {
+    font-weight: 500;
+    color: rgb(106, 117, 128);
+}
+
+.card .content .price {
+    font-weight: 500;
+}
+
+#fbox1 {
+    background-image: url(resources/card1.jpg);
+    background-size: cover;
+}
+
+#fbox2 {
+    background-image: url(resources/card2.jpg);
+    background-size: cover;
+}
+
+#fbox3 {
+    background-image: url(resources/card3.jpg);
+    background-size: cover;
+}
+
+#fbox4 {
+    background-image: url(resources/card4.jpg);
+    background-size: cover;
+}
+
+#fbox5 {
+    background-image: url(resources/card5.jpg);
+    background-size: cover;
+}
+
+#fbox6 {
+    background-image: url(resources/card6.jpg);
+    background-size: cover;
+}
+
+#fbox7 {
+    background-image: url(resources/card7.jpg);
+    background-size: cover;
+}
+
+#fbox8 {
+    background-image: url(resources/card8.jpg);
+    background-size: cover;
+}
+
+#fbox9 {
+    background-image: url(resources/card9.jpg);
+    background-size: cover;
+}
+
+#fbox10 {
+    background-image: url(resources/card10.jpg);
+    background-size: cover;
+}
