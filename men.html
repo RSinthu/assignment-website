@@ -399,34 +399,7 @@
             <img src="images/d4.jpeg" alt="" height="20px" width="20px">
             <img src="images/d5.png" alt="" height="20px" width="25px">
     </footer>
-    <script>
-        // Function to filter products based on the range slider value
-        function filterByRange() {
-          var rangeValue = document.getElementById('priceRange').value; // Get the current slider value
-        
-          // Select all products
-          var products = document.querySelectorAll('.card');
-            var count=0;
-          // Loop through each product and show/hide based on price range
-          products.forEach(function(product) {
-            var price = parseFloat(product.dataset.price);
-            if (price <= rangeValue) {
-                count=count+1;
-              product.style.display = 'inline-block'; // Show product
-            } else {
-              product.style.display = 'none'; // Hide product
-            }
-          });
-        
-          // Update displayed range value
-    
-          document.getElementById('rangeValue').innerText = rangeValue;
-          document.getElementById('count').textContent=count;
-        }
-        document.getElementById('priceRange').addEventListener('input', function(){
-            document.getElementById('rangeValue').textContent=document.getElementById('priceRange').value;
-        });
-        </script>
+    <script src="function.js"></script>
     
 </body>
 </html>
