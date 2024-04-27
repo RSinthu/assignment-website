@@ -24,7 +24,7 @@
             align-items: center;
             justify-content: space-between;
             height: 15vh;
-            padding-left: 10%;
+            padding-left: 5%;
             padding-right: 10%;
         }
 
@@ -81,6 +81,7 @@
            font-size: large;
            font-weight: 600;
            padding: 5% 2%;
+           border-top: 1px solid rgb(224, 221, 221);
         
         }
         .container3{
@@ -88,6 +89,8 @@
             justify-content: center;
             align-items: center;
             padding-left: 2%;
+            border-top: 1px solid rgb(224, 221, 221);
+            padding-top: 2%;
         }
         .container3-1{
             flex: 40%;
@@ -124,6 +127,7 @@
             background-color: rgb(244, 244, 244);
             font-size: small;
             font-weight: bold;
+            border-top: 1px solid rgb(224, 221, 221);
         }
         footer img{
             float:right;
@@ -156,6 +160,7 @@
 <body>
     <div style="background-color:white;">
         <nav>
+            <img src="images/img1.png" alt="" style="height: 15vh;width: auto;">
             <h2 class="logo">Fashion <span>Bug</span></h2>
             <ul>
                 <li><a href="index.html">Home</a></li>
@@ -167,7 +172,7 @@
             <button type="button">Subscribe</button>
         </nav>
     </div>
-    <div style="height: 10vh;background-color: rgb(244, 244, 244);width: 100%;"></div>
+    <div style="height: 10vh;background-color: rgb(244, 244, 244);width: 100%;border-top: 1px solid rgb(224, 221, 221);"></div>
         <div class="container1">
             <div class="container1-1">
                 <div class="input-group mb-3">
@@ -181,7 +186,7 @@
                     </div>
                     <div>
                         <button type="button" class="btn btn-primary" onclick="filterByRange()">Filter</button>
-                        <span style="margin-left: 23%;"><span style="opacity: 0.9;">Price: </span>0$ - <span id="rangeValue">200</span>$</span>
+                        <span style="margin-left: 8%;font-size:small;"><span style="opacity: 0.9;">Price: </span>0$ - <span id="rangeValue">200</span>$</span>
                     </div>
                 </div>
                 <div style="margin-top: 15%;">
