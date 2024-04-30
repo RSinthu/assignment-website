@@ -22,7 +22,7 @@ Fashion Bug is an e-commerce platform for buying clothes and accessories. This s
 
 ## Demo
 
-You can find a live demo of the Fashion Bug website [here](https://baby-laala.github.io/assignment-website/).
+You can find a live demo of the Fashion Bug website [here](https://laavanjan.github.io/assignment-website/).
 
 ![Fashion Bug Screenshot](screenshot.png)
 

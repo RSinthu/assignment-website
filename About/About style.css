@@ -1,0 +1,363 @@
+body{
+    background-color: rgb(250, 243, 243);
+    font-family: Cursive;
+    font-weight: 100;
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background-position: center;
+}
+
+.hero { 
+    height: 550px;
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(group-discussion2.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 15px;
+    padding-left: 100px;
+    padding-right: 10%;
+}
+
+.logo1 {
+    color: white;
+    font-size: 40px;
+}
+
+nav span {
+    color: #ea1538;
+}
+
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+nav ul li a:hover {
+    color: #ea1538;
+    transition: 0.3s;
+    width: 100%;
+    text-decoration: underline #ea1538;
+}
+
+button {
+    border: none;
+    background: #ea1538;
+    padding: 12px 30px;
+    border-radius: 30px;
+    color: white;
+    font-weight: bold;
+}
+
+.content1{
+    margin-top: 90px;
+    padding-top: 30px;
+    padding-left: 37%;
+    padding-right: 10%;
+}
+
+.content1 h1{
+    font-size: 90px;
+    color: aliceblue;
+}
+
+.container1 {
+    display: flex;
+    margin:100px 40px 100px 40px ;
+    background-color: rgb(255, 255, 255);
+    background-blend-mode:darken;
+    border-: 1px groove;
+}
+  
+.left {
+    flex:1;
+    margin:60px 50px 30px 90px ;
+    ma
+}
+ 
+.right {
+    flex:1.2;
+    
+}
+  
+.right img {
+    max-width: 100%;
+    height: auto;
+}
+
+p{
+    font-size: 17px;
+}
+
+.container1 h1{
+    font-size: 40px;
+}
+
+.container1 hr{ 
+    margin-right: 400px;
+    border: 2px solid red;
+} 
+
+.container2{
+    background-color: white;
+    height: 1070px;
+}
+
+.Team{
+    text-align: justify;
+    padding-left: 260px;
+    padding-right: 260px;
+    font-size: 5px;
+}
+
+.team {
+    display: flex;
+    align-items: center;
+    width: 600px;
+    max-width: 600px;
+    margin:auto;
+    padding: 20px;
+}
+
+.container2 hr{ 
+    margin-right: 600px;
+    margin-left: 600px;
+    border: 2px solid red;
+} 
+
+.container2 h2 {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.container2 h1 {
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.container2 p {
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 80px;
+}
+
+
+.team {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-right: 465px;
+}
+
+.row {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.person {
+    width: 230px;
+    height: 230px;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(250, 243, 243);
+}
+
+.person h2 {
+    font-size: 1.2em;
+    margin-bottom: 5px;
+}
+
+.person p {
+    font-size: 17px;
+}
+.team img{
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+}
+
+
+.container3{
+    background-image: url('group-discussion1.jpg') ;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 450px;
+    width: 100%;
+    display: grid;
+    place-items: center;
+}
+
+.box{
+    width: 400px;
+    height: 100%;
+    justify-content: center;
+    background-color: rgb(250, 243, 243);
+}
+
+.container3 hr{ 
+    margin: 10px 150px 0px 150px;
+    border: 2px solid red;
+} 
+
+.box p{
+    font-size: 45px;
+    text-align: center;
+}
+
+.i{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 100px;
+    padding-right: 100px;
+
+}
+
+.container3 i{
+    font-size: 25px;
+}
+
+.container3 i:hover{
+    color: #ec0e33;
+    cursor: pointer;
+}
+
+.container4 {
+    display: flex;
+    justify-content: center;
+    width: 85vw; 
+    margin: 0 auto;
+    padding: 20px;
+}
+
+
+.services {
+    display: flex; 
+    justify-content: space-between;
+    width: 100%; 
+}
+
+.service {
+    width: 240px; 
+    text-align: center;
+}
+
+.service img {
+    width: 50px;
+    height: 50px; 
+    margin-bottom: 10px;
+}
+
+.service h3 {
+    font-size: 1.2em;
+    margin-bottom: 5px;
+}
+
+.service p {
+    font-size: 17px;
+}
+
+
+
+.container5{
+    border-top: 1px solid rgb(224, 221, 221);
+    height: 150px;
+    display: grid;
+    place-items: center;
+}
+
+.container5 h2:hover{
+    color: #ea1538;
+    cursor: pointer;
+}
+
+
+/*footer*/
+
+.container6{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 2%;
+    border-top: 1px solid rgb(224, 221, 221);
+    padding-top: 2%;
+}
+
+.logo2 {
+    color: rgb(0, 0, 0);
+    font-size: 40px;
+}
+
+.container6-1{
+    flex: 35%;
+    width: 100%;
+
+}
+
+.container6-1 h2 span{
+    color: #ea1538;
+}
+
+.container6-1 h4{
+    margin-top: 10px;
+}
+
+.container6-2{
+    flex: 22.5%;
+    width: 100%;
+}
+
+.list{
+    list-style-type: none;
+    font-size:small;
+    padding: 0%;
+}
+
+.list li{
+    padding:3px;
+}
+
+.container6-3{
+    flex: 22.5%;
+    width: 100%;
+}
+
+.container6-4{
+    flex: 20%;
+    width: 100%;
+}
+
+footer{
+    padding-top: 10px;
+    padding-right: 40px;
+    padding-left: 40px;
+    height: 40px;
+    text-align: left;
+    background-color: rgb(244, 244, 244);
+    font-size: small;
+    font-weight: bold;
+    border-top: 1px solid rgb(224, 221, 221);
+}
