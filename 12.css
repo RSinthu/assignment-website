@@ -240,6 +240,7 @@ hr{
 .logo2 {
     color: rgb(0, 0, 0);
     font-size: 40px;
+    font-style: italic;
 }
 
 .container6-1{
@@ -250,6 +251,7 @@ hr{
 
 .container6-1 h2 span{
     color: #ea1538;
+    font-style: italic;
 }
 
 .container6-1 h4{
@@ -291,25 +293,34 @@ hr{
 }
 
 footer{
-    margin-left: 4%;
-    padding-top: 30px;
+    padding-top: 33px;
     padding-right: 40px;
     padding-left: 40px;
-    height: 50px;
+    height: 100px;
     text-align: left;
-    background-color: rgb(244, 244, 244);
-    font-size: 20px;
+    font-size: small;
     font-weight: bold;
     border-top: 1px solid rgb(224, 221, 221);
-}
-i{
-    float: right;
-    margin-left: 5%;
-    width: 70px;
+    
 
 }
 
-i:hover{
-    color: #ea1538;
+footer span{
+   margin: 20px 0;
+   font-size: 18px;
+   font-weight: 1;
+   margin-left: 55px;
+
+}
+
+footer i{
+    font-size: large;
+    float:right;
+    margin-right: 30px;
+}
+
+footer i:hover{
+    font-size: 25px;
+    color: #ec0e33;
     cursor: pointer;
 }
