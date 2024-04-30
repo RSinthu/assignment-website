@@ -492,9 +492,16 @@ footer span{
 
 }
 
-footer img{
+footer i{
+    font-size: large;
     float:right;
     margin-right: 30px;
+}
+
+footer i:hover{
+    font-size: 25px;
+    color: #ec0e33;
+    cursor: pointer;
 }
 .card{
     height: 50vh;
