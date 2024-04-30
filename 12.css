@@ -229,44 +229,52 @@ hr{
 .container6{
     display: flex;
     justify-content: center;
-    align-items: center;
-    padding-left: 7%;
-    border-top: 1px solid rgb(224, 221, 221);
+    height: 300px;
+    margin-left: 120px;
+    margin-right: 130px;
     padding-top: 2%;
-    padding-right: 15%;
-    height: 250px;
 }
 
 .logo2 {
     color: rgb(0, 0, 0);
     font-size: 40px;
-    font-style: italic;
 }
 
 .container6-1{
-    flex: 35%;
+    margin-top: 20px;
+    flex: 40%;
     width: 100%;
 
+}
+
+.container6-1 h2{
+    font-style: italic;
 }
 
 .container6-1 h2 span{
     color: #ea1538;
-    font-style: italic;
 }
 
 .container6-1 h4{
-    margin-top: 10px;
+    margin-top: 8px;
+    font-size: 20px;
 }
 
 .container6-2{
-    flex: 22.5%;
+    margin-top: 40px;
+    flex: 20%;
     width: 100%;
+}
+
+.container6-2 p{
+    font-size: 20px;
 }
 
 .list{
     list-style-type: none;
     font-size:small;
     padding: 0%;
+    margin-bottom: 10px;
 }
 
 .list li{
@@ -274,22 +282,30 @@ hr{
 }
 
 .container6-3{
-    flex: 22.5%;
+    margin-top: 40px;
+    flex: 20%;
     width: 100%;
 }
 
+.container6-3 p{
+    font-size: 20px;
+}
+
 .container6-4{
+    margin-top: 40px;
     flex: 20%;
     width: 100%;
-    height: 100px;
 }
-.kko{
-    border: none;
-    background: #ea1538;
-    padding: 12px 30px;
-    border-radius: 30px;
-    color: white;
-    font-weight: bold;
+
+.container6-4 p{
+    font-size: 20px;
+}
+
+.container6-4 p input{
+    height: 17px;
+    width: 190px;
+    padding: 10px;
+    font-size: 15px;
 }
 
 footer{
