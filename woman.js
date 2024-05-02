@@ -65,53 +65,53 @@ console.error('Upgrade your browser. This Browser is NOT supported WebSocket for
 }
 
 function navigateToNewPage() {
-window.location.href = 'cart1.html';
+window.location.href = 'cart/cart1.html';
 }
 function navigateToNewPage2() {
-window.location.href = 'cart2.html';
+window.location.href = 'cart/cart2.html';
 }
 function navigateToNewPage3() {
-window.location.href = 'cart3.html';
+window.location.href = 'cart/cart3.html';
 }
 function navigateToNewPage4() {
-window.location.href = 'cart4.html';
+window.location.href = 'cart/cart4.html';
 }
 function navigateToNewPage5() {
-window.location.href = 'cart5.html';
+window.location.href = 'cart/cart5.html';
 }
 function navigateToNewPage6() {
-window.location.href = 'cart6.html';
+window.location.href = 'cart/cart6.html';
 }
 function navigateToNewPage7() {
-window.location.href = 'cart7.html';
+window.location.href = 'cart/cart7.html';
 }
 function navigateToNewPage8() {
-window.location.href = 'cart8.html';
+window.location.href = 'cart/cart8.html';
 }
 function navigateToNewPage9() {
-window.location.href = 'cart9.html';
+window.location.href = 'cart/cart9.html';
 }
 function navigateToNewPage10() {
-window.location.href = 'cart10.html';
+window.location.href = 'cart/cart10.html';
 }
 function navigateToNewPage11() {
-window.location.href = 'cart11.html';
+window.location.href = 'cart/cart11.html';
 }
 function navigateToNewPage12() {
-window.location.href = 'cart12.html';
+window.location.href = 'cart/cart12.html';
 }
 function navigateToNewPage13() {
-window.location.href = 'cart13.html';
+window.location.href = 'cart/cart13.html';
 }
 function navigateToNewPage14() {
-window.location.href = 'cart14.html';
+window.location.href = 'cart/cart14.html';
 }
 function navigateToNewPage15() {
 window.location.href = 'cart15.html';
 }
 function navigateToNewPage16() {
-window.location.href = 'cart16.html';
+window.location.href = 'cart/cart16.html';
 }
 function navigateToNewPage17() {
-window.location.href = 'cart17.html';
+window.location.href = 'cart/cart17.html';
 }
