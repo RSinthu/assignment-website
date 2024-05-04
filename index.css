@@ -261,6 +261,24 @@ button {
     font-weight: 500;
 }
 
+.selector{
+    display: flex;
+    flex-direction:row ;
+}
+
+.circle {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    cursor: pointer;
+    display: inline-block;
+    margin: 1px;
+}
+
+.red { background-color: red; }
+.green { background-color: rgb(105, 221, 105); }
+.blue { background-color: blue; }
+
 #fbox1 {
     background-image: url(resources/card1.jpg);
     background-size: cover;

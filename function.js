@@ -17,3 +17,93 @@ function filterByRange() {
 document.getElementById('priceRange').addEventListener('input', function(){
   document.getElementById('rangeValue').textContent=document.getElementById('priceRange').value;
 });
+
+
+function changeImage() {
+  var selectedColor = document.querySelector('input[name="color"]:checked').value;
+  var imageElement = document.getElementById('tshirt1');
+
+  switch (selectedColor) {
+      case 'red':
+          imageElement.src = 'red.jpg';
+          break;
+      case 'green':
+          imageElement.src = 'greentshrt.jpg';
+          break;
+      case 'blue':
+          imageElement.src = 'blue.jpg';
+          break;
+      default:
+          imageElement.src = 'orangeshirt.jpg';
+        break;
+      }
+}
+
+function changeImage() {
+  var selectedColor = document.querySelector('input[name="color"]:checked').value;
+  var imageElement = document.getElementById('imageToChange');
+
+  switch (selectedColor) {
+      case 'red':
+          imageElement.src = 'redshoe.jpg';
+          break;
+      case 'green':
+          imageElement.src = 'greenshoe.jpg';
+          break;
+      case 'black':
+          imageElement.src = 'blackshoe.jpg';
+          break;
+      case 'blue':
+          imageElement.src = 'blue.jpg';
+          break;    
+      default:
+          imageElement.src = 'blue.jpg';
+        break;
+      }
+}
+
+
+function changeImage() {
+  var selectedColor = document.querySelector('input[name="color"]:checked').value;
+  var imageElement = document.getElementById('imageToChange');
+
+  switch (selectedColor) {
+      case 'red':
+          imageElement.src = 'redshoe.jpg';
+          break;
+      case 'green':
+          imageElement.src = 'greenshoe.jpg';
+          break;
+      case 'black':
+          imageElement.src = 'blackshoe.jpg';
+          break;
+      case 'blue':
+          imageElement.src = 'blue.jpg';
+          break;    
+      default:
+          imageElement.src = 'blue.jpg';
+        break;
+      }
+}
+
+function changeImage() {
+  var selectedColor = document.querySelector('input[name="color"]:checked').value;
+  var imageElement = document.getElementById('imageToChange');
+
+  switch (selectedColor) {
+      case 'red':
+          imageElement.src = 'red.jpg';
+          break;
+      case 'green':
+          imageElement.src = 'greentshrt.jpg';
+          break;
+      case 'blue':
+          imageElement.src = 'blue.jpg';
+          break;
+      default:
+          imageElement.src = 'orangeshirt.jpg';
+        break;
+      }
+}
+
+
