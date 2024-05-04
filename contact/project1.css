@@ -10,7 +10,7 @@ body{
 .run{
     height: 60vh;
     width: 100%;
-   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),url(129.jpg);
+   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),url(home1.jpg);
    background-attachment: fixed;
     background-size: cover;
     background-position: center;
@@ -54,6 +54,7 @@ button{
     border-radius: 30px;
     color: white;
     font-weight: bold;
+    cursor: pointer;
 }
 .rox{
     padding-top: 7%;
@@ -224,7 +225,7 @@ button1{
 }
 hr{
     margin-top: 25px;
-    background-color: #080808;
+    background-color: gray;
 }
 .container6{
     display: flex;
