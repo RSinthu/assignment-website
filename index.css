@@ -267,17 +267,19 @@ button {
 }
 
 .circle {
-    width: 20px;
-    height: 20px;
+    width: 18px;
+    height: 18px;
     border-radius: 50%;
     cursor: pointer;
     display: inline-block;
     margin: 1px;
 }
 
-.red { background-color: red; }
+.red { background-color: rgb(255, 37, 37); }
 .green { background-color: rgb(105, 221, 105); }
 .blue { background-color: blue; }
+.brown {background-color: rgb(168, 125, 67);}
+.silver {background-color: rgb(146, 144, 142);}
 
 #fbox1 {
     background-image: url(resources/card1.jpg);
