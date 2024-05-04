@@ -21,7 +21,7 @@ document.getElementById('priceRange').addEventListener('input', function(){
 
 function changeImage() {
   var selectedColor = document.querySelector('input[name="color"]:checked').value;
-  var imageElement = document.getElementById('tshirt1');
+  var imageElement = document.getElementById('tshirt19');
 
   switch (selectedColor) {
       case 'red':
