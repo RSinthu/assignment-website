@@ -118,16 +118,23 @@
                             <span class="header">DNK Yellow Shoes</span>
                             <div class="gender">Men</div>
                             <div class="price">$120.00</div>
+                            <div class="circle red" onclick="changeRedImage()" ></div>
+                            <div class="circle blue" onclick="changeBlueImage()" ></div>
+                            <div class="circle green" onclick="changeGreenImage()" ></div>
                         </div>
                     </div>
                 
                 
                     <div class="card">
-                        <div class="image" id="fbox2"></div>
+                        <div class="image" id="fbox4"></div>
                         <div class="content">
-                            <span class="header">DNK Blue Shoes</span>
-                            <div class="gender">Men</div>
-                            <div class="price">$200.00 – $240.00</div>
+                            <span class="header">DNK hoodie</span>
+                            <div class="gender">Women-Men</div>
+                            <div class="price">$150.00</div>
+                            <div class="circle black" onclick="changeBlackImage4()" ></div>
+                            <div class="circle blue" onclick="changeBlueImage4()" ></div>
+                            <div class="circle red" onclick="changeRedImage4()" ></div>
+                            <div class="circle green" onclick="changeGreenImage4()" ></div>
                         </div>
                     </div>
                 
@@ -143,11 +150,15 @@
                 
                 
                     <div class="card">
-                        <div class="image" id="fbox4"></div>
+                        <div class="image" id="fbox2"></div>
                         <div class="content">
-                            <span class="header">Blue Denim Jeans</span>
-                            <div class="gender">Women</div>
-                            <div class="price">$150.00</div>
+                            <span class="header">DNK Branded Shirt</span>
+                            <div class="gender">Men</div>
+                            <div class="price">$200.00 – $240.00</div>
+                            <div class="circle lightblue" onclick="changeLightBlueImage2()" ></div>
+                            <div class="circle blue" onclick="changeBlueImage2()" ></div>
+                            <div class="circle green" onclick="changeGreenImage2()" ></div>
+                            <div class="circle red" onclick="changeRedImage2()" ></div>
                         </div>
                     </div>
                 
@@ -214,6 +225,10 @@
                             <span class="header">Bright Red Bag</span>
                             <div class="gender">Accessories</div>
                             <div class="price">$100.00-$140.00</div>
+                            <div class="circle blue" onclick="changeBlueImage10()" ></div>
+                            <div class="circle orange" onclick="changeOrangeImage10()" ></div>
+                            <div class="circle purple" onclick="changePurpleImage10()" ></div>
+                            <div class="circle red" onclick="changeRedImage10()" ></div>
                         </div>
                     </div>
                 
@@ -293,11 +308,13 @@
         </div>
         <div class="container3-4">
             <h3>Subscribe</h3>
-            <p style="margin-top: 10px;">
-                <input type="email" name="" id="" placeholder="Your email address" style="height: 40px;width: 200px;font-size: small;padding-left: 15px;">
-            </p>
-            <br>
-            <button type="button" class="btn btn-primary">Subscribe</button>
+            <form action="Backend/index.php" method="post">
+                <p style="margin-top: 10px;">
+                    <input type="email" name="email" id="email" placeholder="Your email address" style="height: 40px;width: 200px;font-size: small;padding-left: 15px;">
+                </p>
+                <br>
+                <button type="button" class="btn btn-primary">Subscribe</button>
+             </form>
         </div>
     </div>
 
@@ -309,7 +326,7 @@
         <i class="fab fa-youtube"></i>
 </footer>
     
-<script src="script.js"></script>
+<script src="index.js"></script>
     
 
 
