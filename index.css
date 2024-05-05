@@ -186,7 +186,7 @@ button {
 /*features*/
 
 .line {
-    background-color: blue;
+    background-color: rgb(255, 0, 0);
     width: 10%;
     height: 2px;
     margin-top: -30px;
@@ -214,8 +214,8 @@ button {
 }
 
 .card {
-    height: 400px;
-    width: 250px;
+    
+    
     display: flex;
     flex-direction: column;
     border-radius: 10px;
@@ -226,7 +226,7 @@ button {
 
 .card .image {
 
-    height: 250px;
+    height: 200px;
     width: 100%;
     border-radius: 10px 10px 0 0;
 }
@@ -244,7 +244,7 @@ button {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin: 10px 90px;
+    margin: 10px 5%;
 }
 
 .card .content .header {
@@ -260,6 +260,26 @@ button {
 .card .content .price {
     font-weight: 500;
 }
+
+.selector{
+    display: flex;
+    flex-direction:row ;
+}
+
+.circle {
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    cursor: pointer;
+    display: inline-block;
+    margin: 1px;
+}
+
+.red { background-color: rgb(255, 37, 37); }
+.green { background-color: rgb(105, 221, 105); }
+.blue { background-color: blue; }
+.brown {background-color: rgb(168, 125, 67);}
+.silver {background-color: rgb(146, 144, 142);}
 
 #fbox1 {
     background-image: url(resources/card1.jpg);
@@ -311,10 +331,10 @@ button {
     background-size: cover;
 }
 
-                                                                       /*special edition*/
+                                    /*special edition*/
 
 .specialedition{
-    height: 60vh;
+    height: 65vh;
     width: 100%;
     background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(resources/specialedition.jpg);
     background-size: cover;
@@ -323,7 +343,7 @@ button {
     color: rgb(255, 255, 255);
     padding-top: 6%;
     padding-left: 6%;
-    margin-top: 5%;
+    margin-top: 6%;
 
 }
 
@@ -353,7 +373,7 @@ button {
 .container2{
     font-size: 25px;
     font-weight: bold;
-    margin-left:160px ;
+    padding-left: 11%;
     margin-bottom: 50px;
     margin-top: 120px;
     border-top: 1px solid rgb(224, 221, 221);
@@ -362,16 +382,17 @@ button {
 
 
 .container4 {
-    display: flex;
+    
+    
     justify-content: center;
-    width: 100vw;
-    max-width: 1200px; /* Adjust for content width */
-    margin: 70px 145px;
+     /* Adjust for content width */
+    margin: 70px 6%;
     padding: 20px;
 }
 
 .services {
     display: flex;
+    flex-direction: row;
     margin: 0 auto;
     justify-content: space-between;
     width: 100%; /* Make sure all services fit in a row */
@@ -491,9 +512,16 @@ footer span{
 
 }
 
-footer img{
+footer i{
+    font-size: large;
     float:right;
     margin-right: 30px;
+}
+
+footer i:hover{
+    font-size: 25px;
+    color: #ec0e33;
+    cursor: pointer;
 }
 .card{
     height: 50vh;
