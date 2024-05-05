@@ -175,4 +175,18 @@ function navigateToNewPage6() {
     window.location.href = 'cart/cart5.html';
 }
 
+function navigateToNewPage7() {
+    window.location.href = 'cart/cart1.html';
+}
 
+function navigateToNewPage8() {
+    window.location.href = 'cart/cart6.html';
+}
+
+function navigateToNewPage9() {
+    window.location.href = 'cart/cart14.html';
+}
+
+function navigateToNewPage10() {
+    window.location.href = 'cart/cart8.html';
+}
