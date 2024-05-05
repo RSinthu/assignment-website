@@ -206,7 +206,7 @@ input, textarea{
 
 .button1{
     background-color: rgb(63, 114, 207);
-    border: none;
+    border: 0;
     padding: 12px 30px;
     border-radius: 0;
     color: white;
