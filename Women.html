@@ -24,7 +24,7 @@
                 <li><a href="About/About.html">About</a></li>
                 <li><a href="contact/project1.html">Contact us</a></li>
             </ul>
-            <button type="button">SIGN IN</button>
+            <a href="signin/signin.html" style="text-decoration: none;color: white;"><button type="button" style="height: 6vh;">SIGN IN</button></a>
         </nav>
     </div>
     <div style="height: 10vh;background-color: rgb(244, 244, 244);width: 100%;"></div>
@@ -58,7 +58,7 @@
                         </a>
                         <span style="margin-left: 60%;">(17)</span>
                     </div>     
-                    <div style="margin-top: 20%;">
+                    <div style="margin-top: 20%;margin-bottom: 20%;">
                         <span style="text-align: left;color: black;font-size: larger;">Our Best Sellers</span>
                     </div>
                     <a href="cart/cart12.html" style="color: black;">
@@ -69,7 +69,7 @@
                             
                             <p style="margin: 0;">Gray Pattern Tshirt</p>
                             <p><img src="star.png" style="height: 2.5vh;width: 50%;margin-top: 3%;"></p>
-                            <p style="margin-top: 0;">$30.00 - 34.00</p>
+                            <p style="margin-top: 0;">$75.00</p>
                         </div>
                         
                     </div> 
@@ -80,7 +80,7 @@
                         <div style="flex:70%;width: 100%;">
                             <p style="margin: 0;">Dark Brown Jeans</p>
                             <p><img src="star.png" style="height: 2.5vh;width: 50%;margin-top: 3%;"></p>
-                            <p style="margin-top: 0;">$30.00 - 34.00</p>
+                            <p style="margin-top: 0;">$100.00</p>
                     </div>
                         
                     </div>
@@ -91,7 +91,7 @@
                         <div style="flex:70%;width: 100%;">
                             <p style="margin-bottom: 0;">Green Hoodie</p>
                             <p><img src="star.png" style="height: 2.5vh;width: 50%;margin-top: 3%;"></p>
-                            <p>$30.00 - 34.00</p>
+                            <p>$120.00</p>
                     </div>
                     </div> 
                     </a>
@@ -101,7 +101,7 @@
                         <div style="flex:70%;width: 100%;">
                             <p style="margin-bottom: 0;">Lemon Tshirt</p>
                             <p><img src="star.png" style="height: 2.5vh;width: 50%;margin-top: 3%;"></p>
-                            <p >$30.00 - 34.00</p>
+                            <p >$75.00</p>
                         </div>
                         <hr>
                     </div> 
@@ -112,7 +112,7 @@
                         <div style="flex:70%;width: 100%;">
                             <p style="margin: 0;">DNK Blue Shoes</p>
                             <p><img src="star.png" style="height: 2.5vh;width: 50%;margin-top:3%;margin-bottom: 0;"></p>
-                            <p>$30.00 - 34.00</p>
+                            <p>$70.00</p>
                     </div>
                         <hr>
                     </div>  
@@ -331,10 +331,12 @@
             </div>
             <div class="container3-4">
                 <h3>Subscribe</h3>
+                <form action="Backend/index.php" method="post">
                 <p style="margin-top: 10px;">
-                    <input type="email" name="" id="" placeholder="Your email address" style="height: 30px;padding: 10px;font-size: small;">
+                    <input type="email" name="email" id="" placeholder="Your email address" style="height: 40px;width: 200px;font-size: small;padding-left: 15px;">
                 </p>
-                <button type="button" class="btn btn-primary">Subscribe</button>
+                <button type="submit" style="height: 6vh;padding: 4%;width: 50%;font-size: small;">Subscribe</button>
+                </form>
             </div>
         </div>
 

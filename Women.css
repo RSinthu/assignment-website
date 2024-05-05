@@ -44,10 +44,11 @@
         button {
             border: none;
             background: #ea1538;
-            padding: 12px 30px;
+            padding: 8px 30px;
             border-radius: 30px;
             color: white;
             font-weight: bold;
+            font-size: small;
         }
         .container1{
             display: flex;
