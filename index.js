@@ -124,3 +124,28 @@ function changeOrangeImage2()  {
 
     container.style.backgroundImage = "url('resources/card2-orange.jpg')";
 }
+
+//fbox10
+function changeOrangeImage10()  {
+    var container = document.getElementById('fbox10');
+
+    container.style.backgroundImage = "url('resources/cad10-brown.jpg')";
+}
+
+function changeRedImage10()  {
+    var container = document.getElementById('fbox10');
+
+    container.style.backgroundImage = "url('resources/cad10-red.jpg')";
+}
+
+function changePurpleImage10()  {
+    var container = document.getElementById('fbox10');
+
+    container.style.backgroundImage = "url('resources/cad10-purple.jpg')";
+}
+
+function changeBlueImage10()  {
+    var container = document.getElementById('fbox10');
+
+    container.style.backgroundImage = "url('resources/cad10.jpg')";
+}
