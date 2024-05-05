@@ -129,23 +129,50 @@ function changeOrangeImage2()  {
 function changeOrangeImage10()  {
     var container = document.getElementById('fbox10');
 
-    container.style.backgroundImage = "url('resources/cad10-brown.jpg')";
-}
-
-function changeRedImage10()  {
-    var container = document.getElementById('fbox10');
-
-    container.style.backgroundImage = "url('resources/cad10-red.jpg')";
-}
-
-function changePurpleImage10()  {
-    var container = document.getElementById('fbox10');
-
-    container.style.backgroundImage = "url('resources/cad10-purple.jpg')";
+    container.style.backgroundImage = "url('resources/card10-orange.jpg')";
 }
 
 function changeBlueImage10()  {
     var container = document.getElementById('fbox10');
 
-    container.style.backgroundImage = "url('resources/cad10.jpg')";
+    container.style.backgroundImage = "url('resources/card10.jpg')";
 }
+
+function changePurpleImage10()  {
+    var container = document.getElementById('fbox10');
+
+    container.style.backgroundImage = "url('resources/card10-purple.jpg')";
+}
+
+function changeRedImage10()  {
+    var container = document.getElementById('fbox10');
+
+    container.style.backgroundImage = "url('resources/card10-red.jpg')";
+}
+
+//navigation
+function navigateToNewPage1() {
+    window.location.href = 'Mencart/c7.html';
+}
+
+function navigateToNewPage2() {
+    window.location.href = 'Mencart/c2.html';
+}
+
+function navigateToNewPage3() {
+    window.location.href = 'Mencart/c5.html';
+}
+
+function navigateToNewPage4() {
+    window.location.href = 'Mencart/c3.html';
+}
+
+function navigateToNewPage5() {
+    window.location.href = 'cart/cart2.html';
+}
+
+function navigateToNewPage6() {
+    window.location.href = 'cart/cart5.html';
+}
+
+
