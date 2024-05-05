@@ -415,3 +415,31 @@ footer{
     cursor: pointer;
     font-size: larger;
 }
+
+.faq {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+  
+.question {
+     margin-bottom: 20px;
+}
+  
+.question-header {
+    cursor: pointer;
+    background-color: #f0f0f0;
+    padding: 10px;
+    border-radius: 5px;
+}
+  
+.answer {
+    display: none;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+  
+.show {
+    display: block;
+}
