@@ -99,3 +99,28 @@ function changeBlueImage4()  {
 
     container.style.backgroundImage = "url('resources/card4.jpg')";
 }
+
+//fbox2
+function changeBlueImage2()  {
+    var container = document.getElementById('fbox2');
+
+    container.style.backgroundImage = "url('resources/card2-blue.jpg')";
+}
+
+function changeLightBlueImage2()  {
+    var container = document.getElementById('fbox2');
+
+    container.style.backgroundImage = "url('resources/card2.jpg')";
+}
+
+function changeGreenImage2()  {
+    var container = document.getElementById('fbox2');
+
+    container.style.backgroundImage = "url('resources/card2-green.jpg')";
+}
+
+function changeOrangeImage2()  {
+    var container = document.getElementById('fbox2');
+
+    container.style.backgroundImage = "url('resources/card2-orange.jpg')";
+}
