@@ -107,7 +107,7 @@ function navigateToNewPage14() {
 window.location.href = 'cart/cart14.html';
 }
 function navigateToNewPage15() {
-window.location.href = 'cart15.html';
+window.location.href = 'cart/cart15.html';
 }
 function navigateToNewPage16() {
 window.location.href = 'cart/cart16.html';
