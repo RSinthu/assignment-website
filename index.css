@@ -280,6 +280,7 @@ button {
 .blue { background-color: blue; }
 .brown {background-color: rgb(168, 125, 67);}
 .silver {background-color: rgb(146, 144, 142);}
+.black {background-color: rgb(2, 2, 2);}
 
 #fbox1 {
     background-image: url(resources/card1.jpg);

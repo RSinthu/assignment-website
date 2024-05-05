@@ -74,3 +74,28 @@ function changeSilverImage7()  {
 
     container.style.backgroundImage = "url('resources/card7.jpg')";
 }
+
+//fbox4
+function changeRedImage4()  {
+    var container = document.getElementById('fbox4');
+
+    container.style.backgroundImage = "url('resources/card4-red.jpg')";
+}
+
+function changeGreenImage4()  {
+    var container = document.getElementById('fbox4');
+
+    container.style.backgroundImage = "url('resources/card4-green.jpg')";
+}
+
+function changeBlackImage4()  {
+    var container = document.getElementById('fbox4');
+
+    container.style.backgroundImage = "url('resources/card4-black.jpg')";
+}
+
+function changeBlueImage4()  {
+    var container = document.getElementById('fbox4');
+
+    container.style.backgroundImage = "url('resources/card4.jpg')";
+}
