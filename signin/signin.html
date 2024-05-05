@@ -17,27 +17,27 @@
                 <li><a href="../Women.html">Women</a></li>
                 <li><a href="../About/About.html">About</a></li>
                 <li><a href="../contact/project1.html">Contact us</a></li>
-            </ul><a href="signin.html" style="color:white;text-decoration: none;"><button >SIGN IN</button></a>
+            </ul><button ><a href="signin.html" style="color:white;text-decoration: none;">SIGN IN</a></button>
         </nav>
         <div>
             <div class="rube1">
                 <div class="sen1">
-                    <form>
+                    <form action="../Backend/signin.php" method="post">
                         <div class="ruue">Sign in</div> 
                         <div class="type">
                             <label for="email">Email Address</label>
-                            <input type="email" class="control">
+                            <input type="email" class="control" name="email" id="email">
                         </div>
                         <div class="type">
                             <label for="password">Password</label>
-                            <input type="password" class="control">
+                            <input type="password" class="control" name="password" id="password">
                         </div>
                         <div class="type">
                             <input type="checkbox" id="return">
                             <label for="register check">Remember me</label>
                         </div>
                         <div class="type">
-                            <a href="#"><button1 type="submit">Sign in now</button1></a>
+                            <button type="submit">Sign in now</button>
                         </div>
                         <div class="type">
                             <a href="#">lost your password?</a>
@@ -66,7 +66,7 @@
                 By clicking on "sign in now" you agree to<br>
             </div>
             <a1 href="#" style="text-decoration: underline;">terms of service|privacy policy</a1>
-
+    
     
 </body>
 </html>
