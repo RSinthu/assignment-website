@@ -204,11 +204,11 @@ input, textarea{
     display: inline-block;
 }
 
-button1{
+.button1{
     background-color: rgb(63, 114, 207);
-    border: none;
+    border: 0;
     padding: 12px 30px;
-    border-radius: none;
+    border-radius: 0;
     color: white;
     font-weight: bold;
 }
