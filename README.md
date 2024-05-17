@@ -5,7 +5,7 @@ Welcome to our E-Commerce Website project! This website allows users to browse a
 
 ## Demo
 
-Check out our website by clicking the link below:
+Check out our website by clicking the image below:
 
 [![Website Homepage](screenshot.png)](https://laavanjan.github.io/assignment-website/)
 
