@@ -46,7 +46,7 @@ Check out our website by clicking the image below:
   - Displays products specifically for women, including clothing and accessories.
 
 ## Usage
-1. Visit the website: [E-Commerce Website](https://your-website-url.com)
+1. Visit the website: [E-Commerce Website](https://laavanjan.github.io/assignment-website/)
 2. Browse products by categories.
 3. Use the color filter to choose products based on color.
 4. Sign in to your account or register for a new account.
