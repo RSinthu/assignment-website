@@ -3,6 +3,13 @@
 
 Welcome to our E-Commerce Website project! This website allows users to browse and purchase clothing, handbags, and accessories for both men and women. This project was created as part of our Web Technologies assignment for the 2nd semester.
 
+## Demo
+
+Check out our website by clicking the link below:
+
+[![Website Homepage](screenshot.png)]([https://your-website-url.com](https://laavanjan.github.io/assignment-website/))
+
+---
 ## Team Members
 - Laavanjan (Home Page)
 - Abinan (Contact Us Page, Sign In Page)
@@ -78,4 +85,3 @@ For any questions or suggestions, feel free to contact us:
 
 ---
 
-Feel free to further customize this README according to your project's specifics and structure. Good luck with your e-commerce website project!
