@@ -71,10 +71,10 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 For any questions or suggestions, feel free to contact us:
 
 - Laavanjan - [GitHub](https://github.com/laavanjan)
-- Abinan - [GitHub](https://github.com/abinan)
-- Anujan - [GitHub](https://github.com/anujan)
-- Sinthujan - [GitHub](https://github.com/sinthujan)
-- Vethisan - [GitHub](https://github.com/vethisan)
+- Abinan - [GitHub](https://github.com/ABINAN2011)
+- Anujan - [GitHub](https://github.com/AnujanN)
+- Sinthujan - [GitHub](https://github.com/RSinthu)
+- Vethisan - [GitHub](https://github.com/Vethisan99)
 
 ---
 
