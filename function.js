@@ -17,6 +17,23 @@ function filterByRange() {
 document.getElementById('priceRange').addEventListener('input', function(){
   document.getElementById('rangeValue').textContent=document.getElementById('priceRange').value;
 });
+document.querySelector('#search').addEventListener('input', function(event) {
+    var v = event.target.value.toLowerCase();
+    var products = document.querySelectorAll('.card');
+    var count = 0;
+    products.forEach(function(product) {
+      var name = (product.dataset.name).toLowerCase();
+      if (name.includes(v)) {
+          count=count+1;
+        product.style.display = 'inline-block'; 
+      } else {
+        product.style.display = 'none';
+      }
+    });
+    document.getElementById('count').textContent=count;
+  
+})
+
 
 
 function changeImage() {
